@@ -1,0 +1,296 @@
+@charset "utf-8";
+
+/* header */
+
+
+.myMenu {
+
+    width: 1300px;
+    height: 42px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+/*메인 로고*/
+.myMenu>a>img {
+    width: 90px;
+    height: 32px;
+    margin: 5px 10px 5px 0;
+    float: left;
+}
+
+/*직영몰 링크*/
+.myMenu>ul>li {
+    float: left;
+    margin: 13px 4px;
+    font-size: 11px;
+}
+
+.myMenu>ul>li>a {
+    color: #666;
+}
+
+.myMenu>ul>li>a:hover {
+    color: #000;
+    font-weight: bold;
+}
+
+/*고객 메뉴*/
+
+.customer>a>img {
+    width: 20px;
+    height: 20px;
+    float: right;
+    margin: 10px 5px;
+}
+
+/*메인 메뉴*/
+.mainMenu {
+    width: 100%;
+    height: 133px;
+    background-color: #ffd040;
+    margin: 0 auto;
+    
+}
+
+.mainMenu>.search {
+    width: 1300px;
+    height: 80px;
+    margin: 0 auto;
+}
+
+.mainMenu>.search>a>img {
+    width: 170px;
+    margin-top: 30px;
+    float: left;
+}
+
+.mainMenu>.search>.searchProduct {
+    background-color: white;
+    width: 340px;
+    height: 45px;
+    border-radius: 50px;
+    float: left;
+    margin: 30px 0 0 10px;
+}
+
+/*검색 input 박스*/
+
+.mainMenu>.search>.searchProduct>input {
+    width: 250px;
+    height: 30px;
+    margin: 8px 15px;
+    border: none;
+}
+
+.mainMenu>.search>.searchProduct>input:focus {
+    outline: none;
+}
+
+
+.mainMenu>.search>.searchProduct>.searchIcon {
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    float: right;
+    margin: 8px;
+    border-radius: 50px;
+}
+
+.mainMenu>.search>.searchProduct>.searchIcon>img {
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+}
+
+/*로그인 유도 창*/
+
+.mainMenu>.search>.deliveryTime {
+    width: 300px;
+    height: 40px;
+    float: right;
+    border-radius: 50px;
+    background-color: #ffd966;
+    margin: 35px 23px;
+}
+
+.mainMenu>.search>.deliveryTime>p {
+    margin: 10px 0 0 10px;
+    font-size: 14px;
+    font-weight: bold;
+    float: left;
+}
+
+.mainMenu>.search>.deliveryTime>img {
+    width: 15px;
+    height: 15px;
+    float: right;
+    margin: 15px 10px 0 0;
+}
+
+/*전체 카테고리*/
+
+.mainMenu>.productCategory {
+    width: 1300px;
+    height: 53px;
+    margin: 0 auto;
+}
+
+.mainMenu>.productCategory>.menuIcon {
+    width: 30px;
+    height: 30px;
+    background-color: #000;
+    border-radius: 30px;
+    float: left;
+    margin: 10px;
+}
+
+.mainMenu>.productCategory>.menuIcon>img {
+    margin: 3px;
+    float: left;
+}
+
+/*그외 카테고리*/
+.mainMenu>.productCategory>ul>li {
+    color: #000;
+    float: left;
+    margin: 17px 0 0 15px;
+    font-size: 14px;
+}
+
+.mainMenu>.productCategory>ul>li>a {
+    color: #000;
+}
+
+.mainMenu>.productCategory>ul>li>a:hover {
+    color: #000;
+    font-weight: bold;
+}
+
+.mainMenu>.productCategory>a>h4 {
+    float: left;
+    margin: 15px 0 0 5px;
+    color: black;
+}
+
+/*카테고리 - 브랜드관*/
+
+.mainMenu>.productCategory>a>.brand {
+    float: left;
+    margin: 17px 0 0 0;
+    font-size: 14px;
+    color: #000;
+}
+
+.mainMenu>.productCategory>a>.brand>p {
+    float: left;
+    margin: 0 0 0 30px;
+}
+
+/*카테고리 - 배송매장*/
+
+.mainMenu>.productCategory>a>.deli {
+    float: left;
+    margin: 17px 0 0 0;
+    font-size: 14px;
+    color: #000;
+}
+
+.mainMenu>.productCategory>a>.deli>p {
+    float: left;
+    margin: 0 0 0 30px;
+}
+
+/*푸터*/
+footer {
+    width: 100%;
+    height: 300px;
+}
+
+/*이마트 공지 및 안내*/
+.eMart {
+    background-color: #f5f5f5;
+    height: 40px;
+    align-content: center;
+}
+
+.eMart>div {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.eMart>div>ul>li>a {
+    float: left;
+    margin: 0 10px;
+    font-weight: bold;
+    color: #707070;
+}
+
+.eMart>div>ul>li {
+    float: left;
+    margin: 5px;
+    color: #bbb;
+    font-size: 13px;
+}
+.eMart>div>ul>li>a:hover {
+    text-decoration: underline;
+}
+
+/*법적 약관 메뉴*/
+
+.company {
+    height: 40px;
+    align-content: center;
+
+}
+
+.company>div {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.company>div>ul>li>a {
+    color: #707070;
+    float: left;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.company>div>ul>li {
+    float: left;
+    margin: 5px;
+    color: #bbb;
+    font-size: 13px;
+}
+
+.company>div>ul>li>a:hover {
+    text-decoration: underline;
+}
+
+.company>div>ul>li:nth-child(3)>a {
+    color: red;
+}
+
+.company>div>ul>li:last-child>a {
+    color: red;
+}
+
+/*최하단 푸터*/
+
+.raw {
+    width: 1300px;
+    margin: 0 auto;
+
+}
+.raw > p {
+    font-weight: bold;
+}
+
+.raw > img {
+    float: left;
+}
+
+.raw > .star {
+    color: #666;
+    font-size: 14px;
+}
