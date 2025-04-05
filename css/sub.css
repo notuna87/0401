@@ -1,8 +1,692 @@
 @charset "utf-8";
 
-#sub{
-    width: 1000px;
-    height: 1000px;
-    background-color: #000;
+/*서브 전체*/
+#sub {
+    width: 1280px;
+    height: 7400px;
     margin: 0 auto;
+}
+
+/*상품 세부 분류*/
+.productCategori {
+    width: 1280px;
+    height: 35px;
+    margin: 10px;
+    align-content: center;
+}
+
+.productCategori>ul>li>a {
+    color: #858585;
+    margin: 10px;
+    font-size: 12px;
+}
+
+.productCategori>ul>li {
+    float: left;
+    color: #959595;
+
+}
+
+/*상품 가격 및 이미지 구매하기창*/
+.productMain {
+    width: 1280px;
+    height: 1000px;
+
+}
+
+/*좌측 이미지 및 배너*/
+.productMain>.productImg {
+    width: 60%;
+    height: 100%;
+    float: left;
+}
+
+.productMain>.productImg>.allImg {
+    width: 100%;
+    height: 570px;
+    display: block;
+}
+
+.productMain>.productImg>.allImg>.bigImg {
+    width: 570px;
+    height: 570px;
+    float: left;
+}
+
+.productMain>.productImg>.allImg>.smallImg {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 0 0 19px 19px;
+}
+
+.productMain>.productImg>.productAdd {
+    color: black;
+    width: 100%;
+    height: 80px;
+    padding: 10px;
+    align-content: center;
+}
+
+.productMain>.productImg>.productAdd>a {
+    color: black;
+}
+
+.productMain>.productImg>.productAdd>a>img {
+    float: left;
+    margin-right: 15px;
+}
+
+/*우측 가격 및 원산지 등*/
+
+
+.productPrice {
+
+    line-height: 35px;
+}
+
+.emartPanme {
+    font-size: 12px;
+    color: gray;
+}
+
+.delSp {
+    font-size: 15px;
+    color: gray;
+}
+
+.productMain>.productPrice>a>h2 {
+    color: black;
+}
+
+.card {
+    width: 150px;
+    font-size: 14px;
+    line-height: 50px;
+    display: inline-block;
+}
+
+.cardWon {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.cardiza {
+    display: inline-block;
+    font-size: 14px;
+}
+
+.productPrice>a>img {
+    width: 40%;
+    height: 45px;
+    display: block;
+}
+
+.mobile {
+    display: inline-block;
+    font-size: 13px;
+}
+
+.shopHye {
+    display: inline-block;
+    width: 120px;
+    border: 1px solid #000;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 20px;
+    margin: 0 0 20px;
+}
+
+.morningDelivery {
+    background-color: #f8f8f8;
+    width: 40%;
+    margin: 10px 0 10px;
+    height: 80px;
+    border-radius: 10px;
+    float: right;
+    padding-left: 20px;
+    overflow: hidden;
+    ;
+}
+
+
+.morningDelivery>h3::before {
+    content: "주간배송";
+    background-color: gold;
+    font-size: 13px;
+    border-radius: 35px;
+    padding: 3px;
+}
+
+.morningDelivery>p {
+    font-size: 13px;
+}
+
+.suryang {
+    width: 40%;
+    height: 100px;
+    float: right;
+    padding: 10px 15px;
+    overflow: hidden;
+    background-color: #f8f8f8;
+}
+
+.suryang>p {
+    font-size: 14px;
+    color: #757575;
+}
+
+.suryang>h3 {
+    float: right;
+}
+
+.productPrice>h2 {
+    float: right;
+    margin-top: 10px;
+    font-size: 17px;
+    color: #757575;
+}
+
+.productPrice>h2>span {
+    color: #ff5452;
+    font-size: 30px;
+}
+
+/*구매 버튼*/
+
+.purchaseButton {
+    width: 40%;
+    height: 55px;
+    float: right;
+    margin: 20px 0 0 0;
+    border: 1px solid lightslategray;
+}
+
+.purchaseButton>a>.jjim {
+    width: 12%;
+    height: 100%;
+    float: left;
+    align-content: center;
+    text-align: center;
+    font-size: 30px;
+    color: black;
+}
+
+.purchaseButton>a>.purchase {
+    width: 44%;
+    height: 100%;
+    background-color: black;
+    color: #fff;
+    align-content: center;
+    text-align: center;
+    float: left;
+    font-weight: bold;
+}
+
+.purchaseButton>a>.inCart {
+    width: 44%;
+    height: 100%;
+    background-color: #ff5452;
+    color: #fff;
+    align-content: center;
+    text-align: center;
+    float: left;
+    font-weight: bold;
+}
+
+/*광고*/
+.ad {
+    width: 1280px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+    line-height: 22px;
+
+}
+
+.ad>.adProduct {
+    width: 18%;
+    height: 90%;
+    float: left;
+    margin: 20px 10px;
+
+
+}
+
+.ad>.adProduct>a>img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.ad>.adProduct>a>p {
+    font-size: 14px;
+
+}
+
+.ad>.adProduct>a>p>span {
+    font-weight: bold;
+}
+
+.ad>.adProduct>a>.star {
+    font-size: 13px;
+    color: gray;
+}
+
+.ad>.adProduct>a {
+    color: black;
+}
+
+/*상품 상세페이지 전체*/
+#product {
+    width: 1280px;
+    height: 6000px;
+}
+
+/*바스켓 제외 전체*/
+.productInfo {
+    width: 980px;
+    height: 5930px;
+    float: left;
+}
+
+.productMenu {
+    width: 980px;
+    height: 80px;
+    background-color: #fff;
+    top: 0;
+    position: sticky;
+}
+
+/*상세정보,리뷰, 추천상품,배송/반품/교환/안내*/
+
+.productMenu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.productMenu>ul>li>a {
+    color: gray;
+}
+
+.productMenu>ul>li {
+    float: left;
+    border-bottom: 1px solid #000;
+    text-align: center;
+    width: 240px;
+    font-size: 15px;
+    line-height: 50px;
+    color: gray;
+}
+
+.productMenu>ul>.liFirst {
+    border-bottom: 3px solid #000;
+}
+
+.productMenu>ul>.liFirst>a {
+    color: black;
+    font-weight: bold;
+}
+
+/*상품 상세정보*/
+
+#product>.productInfo>.productPicture>.topImg {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.productPicture {
+    text-align: center;
+    line-height: 40px;
+}
+
+.productPicture>p {
+    margin-top: 15px;
+    line-height: 25px;
+    color: gray;
+    font-size: 15px;
+}
+
+.productPicture>.bottomImg {
+    margin: 80px 0 60px 0;
+    width: 50%;
+    float: left;
+}
+
+.productPicture>.copyright {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.productPicture>a {
+    color: #000;
+}
+
+.productPicture>a>div {
+    align-content: center;
+    text-align: center;
+    width: 100%;
+    height: 60px;
+    border: 1px solid #000;
+    margin: 30px 0;
+    background-color: white;
+}
+
+.productInfo>h2 {
+    margin: 50px 0 20px;
+}
+
+.productInfo>.requiredInfo {
+    width: 30%;
+    line-height: 30px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 15px 0;
+    height: auto;
+}
+
+.requiredInfoin {
+    width: 68%;
+    height: 50px;
+    line-height: 30px;
+    display: block;
+    color: #757575;
+    float: right;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+/*제품정보*/
+
+table,
+th,
+tr {
+    height: 40px;
+    border-collapse: collapse;
+
+}
+
+table,
+th,
+tr>p {
+    font-size: 13px;
+    float: left;
+    align-content: center;
+    padding-left: 15px;
+    text-align: left;
+    overflow: hidden;
+    border: 1px solid #cccccc;
+    font-weight: none;
+    color: #858585;
+}
+
+table {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.after {
+    width: 15%;
+    background-color: #f8f8f8;
+}
+
+.before {
+    width: 35%;
+}
+
+.beforetwo {
+    width: 85%;
+}
+
+.aftertwo {
+    width: 15%;
+}
+
+/*상품 정보 신고*/
+
+.productProblem {
+    background-color: #ddd;
+    width: 100%;
+    height: 40px;
+    float: left;
+    font-size: 14px;
+    align-content: center;
+    color: #333;
+    margin-bottom: 35px;
+}
+
+.productProblem>p {
+    margin-left: 50px;
+    float: left;
+}
+
+.productProblem>p>span {
+    font-weight: bold;
+    color: #000;
+}
+
+.productProblem>.report {
+    float: right;
+    font-size: 12px;
+    margin-right: 20px;
+}
+
+/*포토리뷰*/
+
+.photoReview {
+    width: 100%;
+    height: 150px;
+    float: left;
+}
+
+.more {
+    width: 100%;
+    height: 45px;
+    float: left;
+    align-content: center;
+}
+
+.more>h3 {
+    float: left;
+    height: 100%;
+    align-content: center;
+}
+
+.more>a>p {
+    float: right;
+    font-size: 12px;
+    height: 100%;
+    align-content: center;
+    color: #000;
+}
+
+.photoReview {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.photoReview>a>img {
+    width: 118px;
+    height: 90%;
+    margin: 6px 2px;
+}
+
+/*상세한 리뷰*/
+
+.reviewAll {
+    width: 100%;
+    height: 600px;
+    float: left;
+    margin-top: 100px;
+}
+
+.reviewAll > ul {
+    margin-bottom: 60px;
+}
+
+.reviewAll > ul > li {
+    float: left;
+    margin-right: 15px;
+}
+
+.reviewAll > ul > li > a {
+    color: #343;
+    float: left;
+    font-size: 18px;
+}
+
+.reviewAll > ul > li:first-child{
+    font-weight: bold;
+    color: #000;
+}
+/*리뷰 카테고리*/
+.reviewAll > .reviewCategory {
+    width: 100%;
+    height: 40px;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.reviewAll > .reviewCategory > a > div {
+    border: 1px solid #343;
+    display: inline-block;
+    height: 100%;
+    padding: 10px 20px;
+    border-radius: 30px;
+    color: #333;
+}
+/*리뷰 디테일*/
+.reviewDetail {
+    width: 100%;
+    height: 310px;
+}
+
+.reviewDetail > .reviewImg > img {
+    width: 140px;
+    height: 140px;
+}
+
+/*다음 리뷰 건너가기*/
+
+.next {
+    float: left;
+    width: 100%;
+    height: 30px;
+
+}
+
+.next > ul > li > a{
+    float: left;
+    color: #000;
+    margin-right: 10px;
+}
+
+
+/*우측 장바구니*/
+.bascket {
+    width: 300px;
+    height: 1000px;
+    float: right;
+    position: sticky;
+    top: 0;
+}
+
+.bascket>.productBascket {
+    background-color: #f8f8f8;
+    border-radius: 15px;
+    width: 90%;
+    height: 700px;
+    margin: 10px 0 0 50px;
+
+}
+
+.bascket>.productBascket>p {
+    font-size: 15px;
+    color: #555;
+    float: left;
+    margin: 25px 0 25px 10px;
+    border-radius: 10px;
+}
+
+.bascket>.productBascket>h3 {
+    float: right;
+}
+
+.bascket>.bascketPrice {
+    width: 100%;
+    height: 185px;
+}
+
+.bascket>.bascketPrice>div {
+    width: 280px;
+}
+
+.bascket>div {
+    width: 280px;
+    margin: 0 0 0 50px;
+}
+
+
+.bascket>.bascketPrice>div>p {
+    margin: 20px 0;
+    float: right;
+}
+
+.bascket>.bascketPrice {
+    width: 100%;
+    height: 80px;
+}
+
+.bascket>.bascketPrice>div>p>span {
+    color: #ff5452;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.bascket>div>a>.bascketJjim {
+    float: left;
+    background-color: white;
+    width: 20%;
+    height: 50px;
+    border: 1px solid #bbb;
+    align-content: center;
+    text-align: center;
+    font-size: 30px;
+    color: black;
+}
+
+.bascket>div>a>.bascket_Bascket {
+    width: 80%;
+    height: 50px;
+    background-color: black;
+    float: left;
+    color: white;
+    text-align: center;
+    align-content: center;
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 5px;
+    border: 1px solid #bbb;
+}
+
+.bascket>div>a>.bascketPurchase {
+    width: 100%;
+    height: 50px;
+    background-color: #ff5452;
+    float: left;
+    color: white;
+    text-align: center;
+    align-content: center;
+    font-weight: bold;
+    font-size: 15px;
+    border: 1px solid #bbb;
 }

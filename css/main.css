@@ -28,7 +28,7 @@ body {
 
 
 #slider>.service {
-    width: 1300px;
+    width: 1280px;
     margin: 0 auto;
 }
 
@@ -38,7 +38,7 @@ body {
 
 #slider>.service>.serviceBorder {
     height: 150px;
-    width: 1300px;
+    width: 1280px;
     border: 2px solid #000;
     margin: 0 auto;
     border-radius: 40px;
@@ -87,13 +87,13 @@ section {
 
 /*지금 세일 중인 상품*/
 .sales {
-    width: 1300px;
+    width: 1280px;
     height: 100px;
     margin: 0 auto;
 }
 
 .sales>.saleMenu {
-    width: 1300px;
+    width: 1280px;
     height: 70px;
     margin: 20px;
     border-radius: 20px;
@@ -129,8 +129,8 @@ section {
 
 /*세일 판매 상품 이미지*/
 .salesProduct {
-    width: 1300px;
-    height: 800px;
+    width: 1280px;
+    height: 850px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -146,7 +146,7 @@ section {
 
 .salesProduct>div>a>img {
     width: 100%;
-    height: 80%;
+    height: 77%;
     border-radius: 10px;
 }
 
@@ -220,11 +220,11 @@ a>.allWatch:hover {
 .bigBanner {
     width: 100%;
     background-color: #f5f5f5;
-    margin-bottom: 150px;
+    margin : 150px 0 100px 0 ;
 }
 
 .martBanner {
-    width: 1300px;
+    width: 1280px;
     height: 450px;
     display: flex;
     flex-wrap: wrap;
@@ -234,7 +234,7 @@ a>.allWatch:hover {
 }
 
 .bigBanner>h2 {
-    width: 1300px;
+    width: 1280px;
     margin: 0 auto;
 }
 
